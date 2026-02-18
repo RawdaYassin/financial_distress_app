@@ -210,7 +210,7 @@ def _download_from_drive(file_id: str, dest_path: str) -> bool:
         )
         return os.path.exists(dest_path) and os.path.getsize(dest_path) > 0
     except Exception as e:
-        st.warning(f"Download failed for `{os.path.basename(dest_path)}`: {e}")
+        # st.warning(f"Download failed for `{os.path.basename(dest_path)}`: {e}")
         return False
 
 
@@ -241,7 +241,7 @@ def _get_model_file(filename: str) -> str | None:
     if not file_id or file_id.startswith("REPLACE_WITH"):
         return None  # ID not yet configured
 
-    st.info(f"Downloading `{filename}` from Google Drive… (first run only)")
+    # st.info(f"Downloading `{filename}` from Google Drive… (first run only)")
     success = _download_from_drive(file_id, cached)
     return cached if success else None
 
