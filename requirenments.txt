@@ -1,0 +1,13 @@
+gdown
+pandas
+numpy
+pickle
+json
+shap
+matplotlib
+plotly
+datetime 
+yfinance
+warnings
+logging
+os
