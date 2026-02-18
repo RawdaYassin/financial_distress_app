@@ -2,8 +2,11 @@ gdown
 pandas
 numpy
 matplotlib
+plotly
+yfinance
 scikit-learn
 xgboost
 shap
 streamlit
+
 
