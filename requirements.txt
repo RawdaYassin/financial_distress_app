@@ -1,13 +1,7 @@
 gdown
 pandas
 numpy
-pickle
-json
+scikit-learn
+xgboost
 shap
-matplotlib
-plotly
-datetime 
-yfinance
-warnings
-logging
-os
+streamlit
