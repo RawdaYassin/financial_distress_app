@@ -1,7 +1,9 @@
 gdown
 pandas
 numpy
+matplotlib
 scikit-learn
 xgboost
 shap
 streamlit
+
